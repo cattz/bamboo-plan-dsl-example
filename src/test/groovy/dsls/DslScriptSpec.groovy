@@ -29,6 +29,7 @@ class DslScriptSpec extends Specification {
                 files << it
             }
         }
+        println(files)
         files
     }
 }
